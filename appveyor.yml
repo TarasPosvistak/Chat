@@ -7,11 +7,11 @@ artifacts:
   
 deploy:
 - provider: GitHub
-  tag: Organizer-v$(appveyor_build_version)
-  release: Organizer-v$(appveyor_build_version)
+  tag: Chat-v$(appveyor_build_version)
+  release: Chat-v$(appveyor_build_version)
   description: Release description
   auth_token:
-    secure: M8M3MqGQYvLJ07+hxSuuCSfrv3bo3grNLNTKw1hLOYyJ1tnZI3ljVUrToho3AYpy
+    secure: p8nPg/ZAPy+a9Kx1ZEAuECSWT4ywolGOGoyiuZonc5kgvD/sT/YD9F7DD/CdgQTu
   artifact: setup.iss
   draft: true
   prerelease: false
