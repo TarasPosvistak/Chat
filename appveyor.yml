@@ -3,8 +3,11 @@ build:
   verbosity: minimal
 
 artifacts:
-  - path: setup.iss 
-  
+  - path: setup.iss
+
+  - path: setup.exe
+
+
 deploy:
 - provider: GitHub
   tag: Chat-v$(appveyor_build_version)
