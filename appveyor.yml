@@ -16,7 +16,7 @@ deploy:
   auth_token:
     secure: p8nPg/ZAPy+a9Kx1ZEAuECSWT4ywolGOGoyiuZonc5kgvD/sT/YD9F7DD/CdgQTu
   artifact: setup.iss
-  draft: true
+  draft: false
   prerelease: false
   on:
     branch: master
